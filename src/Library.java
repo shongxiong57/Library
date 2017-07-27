@@ -18,6 +18,7 @@ public class Library {
 		}
 		else {
 			last.next = new Book(name,pages);
+			last = last.next;
 		}
 	}
 	

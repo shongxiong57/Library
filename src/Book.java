@@ -16,7 +16,7 @@ public class Book {
 	//Displays information in Link
 	public void display() {
 		System.out.println("The following book has been added...");
-		System.out.println("Book: " + bookName + "\n" + "Pages: " + bookPage);
+		System.out.println("Book: " + bookName + " , " + "Pages: " + bookPage);
 	}
 	
 }
